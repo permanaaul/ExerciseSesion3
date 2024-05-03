@@ -120,3 +120,20 @@ for (let i = 0; i < word7.length; i++) {
     }
 }
 console.log(result7);
+
+// shows string 
+const input = "hello";
+
+if (typeof input === "string") {
+    console.log(1);
+} else if (typeof input === "number") {
+    console.log(2);
+} else {
+    console.log(3);
+}
+
+// change every letter
+const inputString = 'An apple a day keeps the doctor away';
+const modifiedString = inputString.replace(/a/g, '*');
+
+console.log(modifiedString);
